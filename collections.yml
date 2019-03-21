@@ -242,6 +242,8 @@ Christmas:
   - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
+  - A Very Harold (and|&) Kumar Christmas
+  - Claymation Christmas
   - Tangerine
   - The Christmas Chronicles
   - The Christmas Chronicles
@@ -321,3 +323,7 @@ Johnny English:
   - Johnny English
 Men in Black:
   - Men in Black( [0-3])?$
+Divergent:
+  - ^Divergent$
+  - ^(The Divergent Series.*?)?Insurgent$
+  - ^(The Divergent Series.*?)?Allegiant$
