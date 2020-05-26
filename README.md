@@ -48,7 +48,7 @@ When determining whether to put a new collection in `collections.yml` or
 ### Examples
 | Command                                                                         | Resulting action |
 | ------------------------------------------------------------------------------- | ---------------- |
-| `python main.py`                                                                | process `collections.yml` plus any custom collections named `collections.d/*.yml` |
+| `python3 main.py`                                                                | process `collections.yml` plus any custom collections named `collections.d/*.yml` |
 | `./main.py`                                                                     | same as above |
 | `DEBUG=1 ./main.py`                                                             | same as above & display debugging output |
 | `./main.py collections.yml`                                                     | process only `collections.yml` |
