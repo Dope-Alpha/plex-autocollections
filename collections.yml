@@ -68,6 +68,8 @@ Now You See Me:
   - Now You See Me( \d)?
 Kingsman:
   - Kingsman.+?(The Golden Circle|The Secret Service)
+  - ^Statesman$
+  - ^The King's Man$
 Planet of the Apes:
   - (Rise of|Dawn of|War for) the Planet of the Apes
 Three Flavours Cornetto Trilogy:
@@ -147,6 +149,8 @@ The Fast and the Furious:
   - The Fate of the Furious
   - The Fast And The Furious.+?Tokyo Drift
   - Fast & Furious Presents.+?Hobbs & Shaw
+  - F9
+  - Fast & Furious 10
 The Amityville:
   - The Amityville Horror
   - Amityville II.+?The Possession
