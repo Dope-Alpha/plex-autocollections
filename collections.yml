@@ -1,3 +1,33 @@
+Iron Man: &iron_man
+  - ^Iron Man( [0-3])?$
+Thor: &thor
+  - ^Thor$
+  - Thor.*?The Dark World
+  - Thor.*?Ragnarok
+Guardians of the Galaxy: &guardians_of_the_galaxy
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+Captain America: &captain_america
+  - Captain America(.+?The First Avenger)?
+  - Captain America.+?Winter Soldier
+  - Captain America.+?Civil War
+Ant-Man: &antman
+  - Ant-Man
+  - Ant-Man and the Wasp
+Marvel Universe:
+  - The Incredible Hulk
+  - *iron_man
+  - *thor
+  - *guardians_of_the_galaxy
+  - *captain_america
+  - ^Spider.*?man.+?Homecoming$
+  - ^Doctor Strange$
+  - ^Deadpool$
+  - The Avengers
+  - Avengers+?Age of Ultron
+  - Doctor Strange
+  - Black Panther
+  - Avengers.+?Infinity War
+  - *antman
 Alien:
   - ^Alien( 3)?$
   - ^Aliens$
@@ -105,6 +135,9 @@ Pacific Rim:
 Resident Evil:
   - ^Resident Evil$
   - ^Resident Evil.+?(Apocalypse|Extinction|Afterlife|Retribution|The Final Chapter)
+Resident Evil - Biohazard:
+  - ^Resident Evil$
+  - ^Resident Evil.+?(Degeneration|Damnation|Vendetta)
 The Fast and the Furious:
   - The Fast and the Furious
   - 2 Fast 2 Furious
@@ -157,7 +190,7 @@ The Hunger Games:
 X-Men:
   - ^X-Men$
   - ^X2$
-  - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
+  - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past|Dark Phoenix)
 Pitch Perfect:
   - ^Pitch Perfect( \d)?$
 Anchorman:
@@ -219,6 +252,7 @@ The Matrix:
   - The Matrix
   - The Matrix Reloaded
   - The Matrix Revolutions
+  - Animatrix
 Star Trek:
   - Star Trek
   - Star Trek Into Darkness
