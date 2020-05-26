@@ -11,7 +11,7 @@ Simply use pip to install the requirements and run the software with python 3.
 ```python
 pip install -r requirements.txt
 ...
-python main.py
+python3 main.py
 ```
 
 It will ask you for your Plex login and automatically find your servers. If it looks like more than one library may contain movies, it will ask you which one you want to create collections on.
