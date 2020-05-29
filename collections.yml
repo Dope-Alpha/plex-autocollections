@@ -24,10 +24,12 @@ Marvel Universe:
   - ^Deadpool$
   - The Avengers
   - Avengers+?Age of Ultron
-  - Doctor Strange
-  - Black Panther
+  - Doctor Strange [0-3])?$
+  - Black Panther  [0-3])?$
   - Avengers.+?Infinity War
+  - Avengers.+?End Game
   - *antman
+  - Black Widow
 Alien:
   - ^Alien( 3)?$
   - ^Aliens$
